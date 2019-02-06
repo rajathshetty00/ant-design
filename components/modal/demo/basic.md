@@ -50,6 +50,7 @@ class App extends React.Component {
           visible={this.state.visible}
           onOk={this.handleOk}
           onCancel={this.handleCancel}
+          width = {500}
         >
           <p>Some contents...</p>
           <p>Some contents...</p>
